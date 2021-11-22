@@ -1,0 +1,24 @@
+{
+    "name": "totalcrm/docx-templator",
+    "description": "Templating library for MS Office Word DOCX documents",
+    "homepage": "https://github.com/totalcrm/docx-templator",
+    "type": "library",
+    "keywords": ["docx", "template", "word"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Romanenko Aleksandr",
+        "email": "romanenko.a.a@outlook.com"
+    }],
+    "require": {
+        "php": ">=7.4.0",
+        "ext-xsl": "*",
+        "ext-zip": "*",
+        "ext-dom": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "TotalCRM\\DocxTemplator\\": "src/"
+        }
+    }
+}
