@@ -72,7 +72,7 @@ class Lexer extends AbstractLexer
      * @param string $value
      * @return int|null
      */
-    protected function getType(&$value): ?int
+    protected function getType(&$value): int
     {
         switch (true) {
             case ($value === $this->brackets[0]):
